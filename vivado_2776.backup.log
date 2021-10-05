@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Fri Aug  6 16:02:48 2021
+# Process ID: 2776
+# Current directory: D:/Programs/vivado/cpu_4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15304 D:\Programs\vivado\cpu_4\cpu_3.xpr
+# Log file: D:/Programs/vivado/cpu_4/vivado.log
+# Journal file: D:/Programs/vivado/cpu_4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Programs/vivado/cpu_4/cpu_3.xpr
+INFO: [Project 1-313] Project file moved from 'D:/vivado/cpu_4' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Program_Files/vivado_2021_1/Vivado/2021.1/data/ip'.
+INFO: [Project 1-230] Project 'cpu_3.xpr' upgraded for this version of Vivado.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 1128.836 ; gain = 0.000
+upgrade_project -migrate_output_products
+INFO: [Coretcl 2-1819] Migrated 'data_mem.xci'
+  Source files are located in 'd:/Programs/vivado/cpu_4/cpu_3.srcs/sources_1/ip/data_mem'
+  Output files are located in 'd:/Programs/vivado/cpu_4/cpu_3.gen/sources_1/ip/data_mem'.
+INFO: [Coretcl 2-1819] Migrated 'inst_mem.xci'
+  Source files are located in 'd:/Programs/vivado/cpu_4/cpu_3.srcs/sources_1/ip/inst_mem'
+  Output files are located in 'd:/Programs/vivado/cpu_4/cpu_3.gen/sources_1/ip/inst_mem'.
+report_ip_status -name ip_status 
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Aug  6 16:08:24 2021...
