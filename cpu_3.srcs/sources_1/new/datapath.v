@@ -182,7 +182,8 @@ input wire regwriteW
         .branchM(branchM),         // M阶段是否是分支指令
         .actual_takeM(actual_takeM),    // 实际是否跳转
         .branchD(branchD),        // 译码阶段是否是跳转指令   
-        .pred_takeD(pred_takeD)      // 预测是否跳转
+        .pred_takeD(pred_takeD),      // 预测是否跳转
+        .pred_flush(pred_flush)
     );
     //ID-EXE
     floprc flop_rd1(
